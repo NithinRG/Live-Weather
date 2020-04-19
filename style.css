@@ -1,0 +1,21 @@
+.temp {
+    font-size: 10vw;
+    font-family: 'Dosis', sans-serif;
+}
+
+p, h1, h2 {
+    margin-bottom: 0px;
+}
+
+hr {
+    margin-top: 0px;
+}
+
+.details, .weather {
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.card-top {
+    background-color: #8fc5ff;
+    font-size: 1.5vw;
+}
